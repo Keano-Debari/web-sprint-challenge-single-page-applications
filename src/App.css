@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width:90%;
+  margin-left:5%;
+}
+
+.navBar a{
+  padding:5px 15px;
+  border:1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.navBar a:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.navBar h1{
+  color: red;
+}
+
+.mainContainer{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  width: 70%;
+  height: 250px;
+  margin-left: 15%;
+  border: 2px solid grey;
+}
+
+.mainContainer button{
+  padding: 10px 30px;
+  background-color: white;
+  color: red;
+}
+
+.mainContainer h1{
+  flex-basis: 100%;
+}
+
+
+
+.pizzaFormDiv{
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  border:4px solid grey;
+}
+
+form label {
+  display: block;
+}
+
+form label h3, form label h4{
+  background-color:lightgray;
+  padding: 20px;
+  margin:0;
+}
+
+form label h3{
+  padding-bottom: 0;
+}
+
+form label h4{
+  padding-top: 0;
+}
+
+form label select{
+  width:169px;
+}
+
+.errors{
+  font-size:16px;
+  color:red;
+  font-weight:bolder;
+  padding:1px 20px;
+}
+
+#submit{
+  margin-bottom: 30px;
+}
